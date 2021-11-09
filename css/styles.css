@@ -258,10 +258,10 @@ footer {
   background-color: #2f303a;
 }
 
-.logo-2 > span {
+.logo-footer > span {
   color: var(--logo-color);
 }
-.logo-2 {
+.logo-footer {
   font-family: Raleway;
   font-weight: bold;
   font-size: 26px;
@@ -271,7 +271,7 @@ footer {
   background-color: var(--background-color);
 }
 
-.logo-2 :hover,
-.logo-2 :focus {
+.logo-footer :hover,
+.logo-footer :focus {
   color: var(--accent-color);
 }
