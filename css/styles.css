@@ -4,17 +4,29 @@
   --accent-color: #18a0fb;
   --primary-white-color: #ffffff;
   --secondary-text-color: #757575;
+  --team-background-color: #f5f4fa;
   --logo-color: #2196f3;
   --background-color: #2f303a;
+  --footer-color: rgba(255, 255, 255, 0.6);
 }
 body {
   background-color: var(--primary-white-color);
   color: var(--secondary-text-color);
   font-family: Roboto, sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 14px;
   letter-spacing: 0.03em;
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
 }
 
 footer {
@@ -25,8 +37,8 @@ footer {
   color: var(--secondary-text-color);
 }
 
-.logo > span {
-  color: var(--logo-color);
+.header-logo {
+  color: var(--title-text-color);
 }
 .logo {
   font-family: Raleway, cursive;
@@ -34,7 +46,7 @@ footer {
   font-size: 26px;
   line-height: 1.19;
   text-decoration: none;
-  color: var(--title-text-color);
+  color: var(--logo-color);
 }
 
 .logo:hover,
@@ -68,6 +80,7 @@ footer {
   list-style: none;
   cursor: pointer;
   border-radius: 4px;
+  border: none;
 }
 
 .auth-nav {
@@ -78,8 +91,8 @@ footer {
   color: var(--secondary-text-color);
 }
 
-.auth-nav .button:hover,
-.auth-nav .button:focus {
+.button:hover,
+.button:focus {
   color: var(--accent-color);
 }
 
@@ -180,6 +193,8 @@ footer {
   background-color: var(--accent-color);
   border-radius: 4px;
   font-family: inherit;
+  cursor: pointer;
+  border: none;
 }
 
 .proposition-text {
@@ -188,7 +203,7 @@ footer {
 }
 
 .title {
-  font-size: 14;
+  font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
   color: var(--primary-text-color);
@@ -274,4 +289,13 @@ footer {
 .logo-footer :hover,
 .logo-footer :focus {
   color: var(--accent-color);
+}
+.footer-mail-color {
+  color: var(--footer-color);
+}
+.team {
+  background-color: var(--team-background-color);
+}
+.team-card {
+  background-color: var(--primary-white-color);
 }
