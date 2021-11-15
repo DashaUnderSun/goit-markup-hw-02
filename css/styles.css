@@ -34,7 +34,7 @@ footer {
 }
 
 .mail-color {
-  color: var(--secondary-text-color);
+  color: var(--footer-color);
 }
 
 .header-logo {
@@ -289,9 +289,6 @@ footer {
 .logo-footer :hover,
 .logo-footer :focus {
   color: var(--accent-color);
-}
-.footer-mail-color {
-  color: var(--footer-color);
 }
 .team {
   background-color: var(--team-background-color);
